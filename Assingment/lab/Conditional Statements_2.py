@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Check if a number is prime using if-else
 
 number = int(input("Enter a number: "))
@@ -11,3 +12,18 @@ if number > 1:
         print(number, "is a prime number.")
 else:
     print(number, "is not a prime number.")
+=======
+# Check if a number is prime using if-else
+
+number = int(input("Enter a number: "))
+
+if number > 1:
+    for i in range(2, number):
+        if number % i == 0:
+            print(number, "is not a prime number.")
+            break
+    else:
+        print(number, "is a prime number.")
+else:
+    print(number, "is not a prime number.")
+>>>>>>> 7f273e04a8525ac20b4e2ba4e90098c9d7af5323
